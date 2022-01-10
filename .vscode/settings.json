@@ -1,0 +1,22 @@
+{
+  // VScode主题配置
+  "editor.tabSize": 2,
+  "editor.lineHeight": 24,
+  "javascript.updateImportsOnFileMove.enabled": "always", // 移动文件或者修改文件名时，是否自动更新引用了此文件的所有文件。
+  // 每次保存是否自动格式化文件，这个配置项是针对具有代码格式化能力的VSCode插件的，本项目里面使用了自定义的格式化处理方案，就把这个关了，避免多种格式化的工具处理格式出现冲突
+  "editor.formatOnSave": false,
+
+  // 以下配置内容是针对代码格式在保存时进行校验和格式化处理的，用的是比较新的版本的配置写法，
+  // 针对.vue 和.js 文件开启 ESLint 的校验
+  "eslint.validate": [
+    "javascript",
+    "vue",
+  ],
+  // 每次保存的时候将代码按以下配置项的顺序进行进行处理
+  "editor.codeActionsOnSave": {
+    // 自动引入缺少的库
+    "source.addMissingImports": true,
+    // 根据 eslint 的规则进行格式化
+    "source.fixAll.eslint": true
+  },
+}
