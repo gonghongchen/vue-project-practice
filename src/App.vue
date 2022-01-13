@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <LoginBar />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@components/HelloWorld.vue'
+import LoginBar from '@components/LoginBar.vue'
 
 export default {
   name: 'App',
-
   components: {
-    HelloWorld,
+    LoginBar,
   },
 }
 </script>
