@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e4c8a"],{9261:function(n,e,t){"use strict";t.r(e);var o=function(){var n=this,e=n.$createElement;n._self._c;return n._m(0)},c=[function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[t("h3",[n._v("这是首页")]),t("p",[n._v("当前的登录状态是：未登录")])])}],r={mounted:function(){throw new Error("抛出一个自定义错误")},methods:{do:function(){console.log(11111,"抛出错误后又调用了这个方法")}}},u=r,l=t("2877"),s=Object(l["a"])(u,o,c,!1,null,null,null);e["default"]=s.exports}}]);
+//# sourceMappingURL=chunk-2d0e4c8a.0b1e8adc.js.map
