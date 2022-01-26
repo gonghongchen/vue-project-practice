@@ -22,7 +22,10 @@ Vue.config.errorHandler = function (err, vm, info) {
   // 只在 2.2.0+ 可用
 
   console.log(11111, err, vm, info)
-  vm.do()
+  if (info === 'render') {
+    // 如果是渲染异常，那可以通过设置 hasRenderError 为 true 来让该页面渲染异常信息从而保证页面不会白屏
+    vm.hasRenderError = true
+  }
 }
 
 new Vue({

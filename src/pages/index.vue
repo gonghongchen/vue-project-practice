@@ -6,14 +6,5 @@
 </template>
 
 <script>
-export default {
-  mounted() {
-    throw new Error('抛出一个自定义错误')
-  },
-  methods: {
-    do() {
-      console.log(11111, '抛出错误后又调用了这个方法')
-    },
-  },
-}
+export default {}
 </script>
