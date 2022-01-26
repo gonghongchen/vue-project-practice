@@ -1,6 +1,6 @@
 # vue-project-practice
 
-`Vue` 相关知识技术的学习和练习
+`Vue` 相关知识技术的学习和练习。GitHub pages：https://gonghongchen.github.io/vue-project-practice/
 
 ## 异常处理
 `Vue.config.errorHandler` 方法可以捕获到渲染和观察期间未捕获的错误，也能够给出具体的错误信息、错误出现的实例、错误出现的具体场景。相关演示代码详见 `main.js` 和 `error.vue` 这两个文件。
